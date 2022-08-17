@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'docker-sasa-python'
+            label 'docker-agent-python'
             }
       }
     triggers {
